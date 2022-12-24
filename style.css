@@ -1,4 +1,4 @@
-input[type=text],select {
+input[type=text],select ,textarea {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -6,6 +6,7 @@ input[type=text],select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    
   }
 
   input[type=tel]{
@@ -49,6 +50,8 @@ input[type=text],select {
     border-radius: 10px;
     background-color: #1ebefd;
     padding: 10px;
+  
+    
   } 
 
   body{
@@ -62,7 +65,7 @@ input[type=text],select {
     
   }
 
-  textarea{
+  /*textarea{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
